@@ -19,7 +19,7 @@ public class Exception1 {
 
         static void newMethRec(){
             try {                                    //file might not be [resent so compiler throws a file not found exception
-                FileReader file = new FileReader("C:\\Users\\ODERA\\Desktop");
+                FileReader file = new FileReader("C:\\Users\\ODERA\\Desktop ");
             } catch (FileNotFoundException e) {
                 // TODO Auto-generated catch block
                 e.printStackTrace();
