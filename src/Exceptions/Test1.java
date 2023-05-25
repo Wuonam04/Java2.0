@@ -14,7 +14,7 @@ public class Test1 {
         System.out.println(obj.getPassword());
         System.out.println(InPass);
          
-         
+        
        try {
            obj.CheckPass(InPass,obj.getPassword());
        }
