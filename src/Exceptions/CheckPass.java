@@ -1,7 +1,7 @@
 package Exceptions;
 
 public class CheckPass {
-    private int Password =12345;
+    private int Password =484932345;
     private int InPass;
 
     public int getPassword() {

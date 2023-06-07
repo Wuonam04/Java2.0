@@ -13,7 +13,7 @@ public class JAVAIO1 {
         FileOutputStream out = new FileOutputStream("C:\\Users\\ODERA\\Desktop\\todos_new.txt"); //file output stream with destination which is the new file
         
         //read each byte of information from the source file
-        int i = 0;    //i holds the integer form of the byte information
+        int i = 0;    //i holds the integer form  of the byte information
         while((i = in.read()) != -1){
             out.write(i);   
             

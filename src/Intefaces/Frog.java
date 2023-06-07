@@ -12,6 +12,7 @@ public class Frog implements LandAnimal,WaterAnimal {
 
     @Override
     public void MakeNoise(){ //Land Animal and water animal both have method with same name using super to solve
-        WaterAnimal.super.MakeNoise();
+        WaterAnimal.super.MakeNoise();  //super keyword to call parent implementation of the same method
+        LandAnimal.super.MakeNoise();
     }
 }
