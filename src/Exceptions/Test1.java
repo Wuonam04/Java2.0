@@ -1,3 +1,4 @@
+
 package Exceptions;
 
 import java.util.Scanner;
